@@ -39,6 +39,12 @@
           }
         }
       ]
-    ]
+    ],
+    "web": {
+      "output": "single"
+    },
+    "experiments": {
+      "baseUrl": "/TaskXP"
+    }
   }
 }
