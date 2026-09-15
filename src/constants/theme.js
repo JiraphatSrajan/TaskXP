@@ -1,0 +1,226 @@
+export const CATEGORY_KEYS = ['Work', 'Health', 'Learning', 'Personal'];
+export const PRIORITY_KEYS = ['Low', 'Medium', 'High'];
+export const REPEAT_KEYS = ['None', 'Daily', 'Weekly', 'Monthly'];
+
+const baseTheme = {
+  radius: {
+    md: 16,
+    lg: 20,
+    xl: 26,
+    screenHeader: 28,
+    pill: 999,
+  },
+  spacing: {
+    xs: 6,
+    sm: 10,
+    md: 16,
+    lg: 20,
+    xl: 24,
+    xxl: 30,
+  },
+};
+
+export const lightTheme = {
+  ...baseTheme,
+  mode: 'Light',
+  dark: false,
+  colors: {
+    background: '#F5F6FB',
+    surface: '#FFFFFF',
+    surfaceMuted: '#F9FAFD',
+    headerStart: '#A855F7',
+    headerEnd: '#3B82F6',
+    primary: '#9B5CF8',
+    primaryDark: '#7B3AED',
+    secondary: '#4D86FF',
+    primarySoft: '#EFE7FF',
+    blue: '#4D86FF',
+    blueSoft: '#EAF1FF',
+    yellow: '#F4B400',
+    yellowSoft: '#FFF6DF',
+    green: '#5FD489',
+    greenSoft: '#EAF9EF',
+    orange: '#FF9D47',
+    orangeSoft: '#FFF1E8',
+    pink: '#FF6DA9',
+    pinkSoft: '#FFEAF4',
+    lilacSoft: '#F3ECFF',
+    text: '#202539',
+    textMuted: '#7E879A',
+    textSoft: '#A7AFBF',
+    border: '#E9EDF6',
+    track: '#ECEFF6',
+    success: '#5FD489',
+    inactive: '#B5BDCC',
+    danger: '#E85D75',
+    overlay: 'rgba(15, 23, 42, 0.32)',
+    cardShadow: 'rgba(33, 37, 57, 0.08)',
+    fabShadow: 'rgba(124, 58, 237, 0.25)',
+  },
+  shadow: {
+    card: {
+      shadowColor: 'rgba(33, 37, 57, 0.08)',
+      shadowOpacity: 1,
+      shadowRadius: 16,
+      shadowOffset: { width: 0, height: 8 },
+      elevation: 4,
+    },
+    header: {
+      shadowColor: '#7C3AED',
+      shadowOpacity: 0.16,
+      shadowRadius: 20,
+      shadowOffset: { width: 0, height: 10 },
+      elevation: 6,
+    },
+    fab: {
+      shadowColor: 'rgba(124, 58, 237, 0.25)',
+      shadowOpacity: 1,
+      shadowRadius: 18,
+      shadowOffset: { width: 0, height: 10 },
+      elevation: 8,
+    },
+  },
+};
+
+export const darkTheme = {
+  ...baseTheme,
+  mode: 'Dark',
+  dark: true,
+  colors: {
+    background: '#0F1220',
+    surface: '#181D31',
+    surfaceMuted: '#1F263B',
+    headerStart: '#7C3AED',
+    headerEnd: '#2563EB',
+    primary: '#B48CFF',
+    primaryDark: '#8B5CF6',
+    secondary: '#75A8FF',
+    primarySoft: '#2A2043',
+    blue: '#75A8FF',
+    blueSoft: '#1F2C4B',
+    yellow: '#F8C94A',
+    yellowSoft: '#3B3217',
+    green: '#67D98F',
+    greenSoft: '#163226',
+    orange: '#FFAE67',
+    orangeSoft: '#3C2616',
+    pink: '#FF8ABA',
+    pinkSoft: '#3B1D2D',
+    lilacSoft: '#2A2043',
+    text: '#F3F6FF',
+    textMuted: '#B2BDD2',
+    textSoft: '#8F9BB5',
+    border: '#2A334D',
+    track: '#29324A',
+    success: '#67D98F',
+    inactive: '#7A859B',
+    danger: '#FF8EA0',
+    overlay: 'rgba(2, 6, 23, 0.62)',
+    cardShadow: 'rgba(0, 0, 0, 0.4)',
+    fabShadow: 'rgba(0, 0, 0, 0.35)',
+  },
+  shadow: {
+    card: {
+      shadowColor: 'rgba(0, 0, 0, 0.35)',
+      shadowOpacity: 1,
+      shadowRadius: 18,
+      shadowOffset: { width: 0, height: 10 },
+      elevation: 6,
+    },
+    header: {
+      shadowColor: 'rgba(0, 0, 0, 0.35)',
+      shadowOpacity: 1,
+      shadowRadius: 18,
+      shadowOffset: { width: 0, height: 12 },
+      elevation: 8,
+    },
+    fab: {
+      shadowColor: 'rgba(0, 0, 0, 0.4)',
+      shadowOpacity: 1,
+      shadowRadius: 18,
+      shadowOffset: { width: 0, height: 10 },
+      elevation: 8,
+    },
+  },
+};
+
+export const goldTheme = {
+  ...baseTheme,
+  mode: 'Gold',
+  dark: false,
+  colors: {
+    background: '#FBF6E9',
+    surface: '#FFFDF7',
+    surfaceMuted: '#F8F0D8',
+    headerStart: '#D4A537',
+    headerEnd: '#9B6B16',
+    primary: '#C4901C',
+    primaryDark: '#8C5D0C',
+    secondary: '#B67B19',
+    primarySoft: '#F7E8BD',
+    blue: '#A36C13',
+    blueSoft: '#F7E9C8',
+    yellow: '#E5B93C',
+    yellowSoft: '#FFF2C8',
+    green: '#5DAA6C',
+    greenSoft: '#EAF6E8',
+    orange: '#DA8B2B',
+    orangeSoft: '#FDE8CF',
+    pink: '#C17074',
+    pinkSoft: '#F9E2E3',
+    lilacSoft: '#F6ECD0',
+    text: '#3A2A16',
+    textMuted: '#7E6949',
+    textSoft: '#AE9A76',
+    border: '#E7D9B4',
+    track: '#EADFBF',
+    success: '#5DAA6C',
+    inactive: '#B7A47F',
+    danger: '#D95D5D',
+    overlay: 'rgba(58, 42, 22, 0.24)',
+    cardShadow: 'rgba(79, 56, 16, 0.12)',
+    fabShadow: 'rgba(140, 93, 12, 0.22)',
+  },
+  shadow: {
+    card: {
+      shadowColor: 'rgba(79, 56, 16, 0.12)',
+      shadowOpacity: 1,
+      shadowRadius: 16,
+      shadowOffset: { width: 0, height: 8 },
+      elevation: 4,
+    },
+    header: {
+      shadowColor: 'rgba(79, 56, 16, 0.18)',
+      shadowOpacity: 1,
+      shadowRadius: 20,
+      shadowOffset: { width: 0, height: 10 },
+      elevation: 6,
+    },
+    fab: {
+      shadowColor: 'rgba(140, 93, 12, 0.22)',
+      shadowOpacity: 1,
+      shadowRadius: 18,
+      shadowOffset: { width: 0, height: 10 },
+      elevation: 8,
+    },
+  },
+};
+
+export const getTheme = (mode = 'Light') => {
+  if (mode === 'Dark') return darkTheme;
+  if (mode === 'Gold') return goldTheme;
+  return lightTheme;
+};
+
+export const categoryMeta = {
+  Work: { bgKey: 'blueSoft', colorKey: 'blue', icon: 'briefcase-outline' },
+  Health: { bgKey: 'greenSoft', colorKey: 'green', icon: 'fitness-outline' },
+  Learning: { bgKey: 'orangeSoft', colorKey: 'orange', icon: 'book-outline' },
+  Personal: { bgKey: 'lilacSoft', colorKey: 'primary', icon: 'person-outline' },
+};
+
+export const priorityMeta = {
+  Low: { colorKey: 'textMuted', bgKey: 'surfaceMuted' },
+  Medium: { colorKey: 'yellow', bgKey: 'yellowSoft' },
+  High: { colorKey: 'orange', bgKey: 'orangeSoft' },
+};
