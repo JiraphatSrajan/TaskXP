@@ -1,5 +1,7 @@
 # 📱 TaskXP — แอปจัดการภารกิจในรูปแบบ RPG
 
+[**เปิดดู TaskXP Live Preview →**](https://jiraphatsrajan.github.io/TaskXP/)
+
 TaskXP คือ Mobile Application สำหรับจัดการภารกิจและพัฒนาตัวเอง โดยเปลี่ยนงานประจำวันให้เป็น Quest ผู้ใช้สามารถสะสม XP, Level, Streak และ Achievement เพื่อมองเห็นความก้าวหน้าของตัวเองอย่างเป็นระบบ
 
 ## 🚀 Project Overview
@@ -107,8 +109,4 @@ TaskXP สามารถนำไปทำเป็น Web Preview ได้ผ
 - ยังไม่ได้ทดสอบเต็มรูปแบบบนอุปกรณ์ Android และ iOS จริง
 - ข้อมูลใช้ Local Storage ยังไม่มีระบบบัญชีหรือซิงก์ข้ามอุปกรณ์
 
-## 👤 Developer
 
-**Jiraphat Srajan (จิรภัทร สระจันทร์)**
-
-นักศึกษาชั้นปีที่ 4 สาขา Information and Communication Technology (ICT) มหาวิทยาลัยศรีปทุม สนใจด้าน Web Development, Application Development และ UX/UI Design
