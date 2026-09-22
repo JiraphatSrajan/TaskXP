@@ -1,16 +1,16 @@
-# 📱 TaskXP — แอปจัดการภารกิจในรูปแบบ RPG
+# TaskXP — แอปจัดการภารกิจในรูปแบบ RPG
 
 [**เปิดดู TaskXP Live Preview →**](https://jiraphatsrajan.github.io/TaskXP/)
 
 TaskXP คือ Mobile Application สำหรับจัดการภารกิจและพัฒนาตัวเอง โดยเปลี่ยนงานประจำวันให้เป็น Quest ผู้ใช้สามารถสะสม XP, Level, Streak และ Achievement เพื่อมองเห็นความก้าวหน้าของตัวเองอย่างเป็นระบบ
 
-## 🚀 Project Overview
+## Project Overview
 
 โปรเจกต์นี้พัฒนาด้วย React Native และ Expo มีระบบจัดการภารกิจ ปฏิทิน ประวัติการทำงาน รางวัล สถิติ และการแจ้งเตือนภายในแอป เหมาะสำหรับการฝึกทำ Mobile Application ที่มีหลายหน้าจอและมีการจัดการสถานะร่วมกัน
 
 > โปรเจกต์นี้เผยแพร่ซอร์สโค้ดเพื่อแสดงทักษะการพัฒนาแอปพลิเคชันและโครงสร้างระบบ
 
-## ✨ ระบบหลัก
+## ระบบหลัก
 
 - หน้า Home และรายการ Quest
 - เพิ่ม แก้ไข ลบ และทำ Quest สำเร็จ
@@ -27,7 +27,7 @@ TaskXP คือ Mobile Application สำหรับจัดการภา�
 - Trash สำหรับกู้คืน Quest
 - Help และหน้าคำแนะนำการใช้งาน
 
-## 🧠 หลักการทำงานของระบบ
+## หลักการทำงานของระบบ
 
 1. ผู้ใช้เริ่มต้นผ่าน Login หรือ Onboarding
 2. ระบบโหลดข้อมูลโปรไฟล์ ภารกิจ และความก้าวหน้า
@@ -37,7 +37,7 @@ TaskXP คือ Mobile Application สำหรับจัดการภา�
 6. หน้าสถิติ ปฏิทิน และประวัติจะคำนวณจากข้อมูลที่บันทึกไว้
 7. ระบบแจ้งเตือนจะแสดงสถานะ Quest, Achievement และงานที่เกินกำหนด
 
-## 🛠️ เทคโนโลยี
+## เทคโนโลยี
 
 | ด้าน | เทคโนโลยี |
 | --- | --- |
@@ -51,7 +51,7 @@ TaskXP คือ Mobile Application สำหรับจัดการภา�
 | Notifications | Expo Notifications |
 | Development | Visual Studio Code |
 
-## 📂 โครงสร้างโปรเจกต์
+## โครงสร้างโปรเจกต์
 
 ```text
 TaskXP/
@@ -69,7 +69,7 @@ TaskXP/
 └── REPORT.md             รายงานการปรับปรุงและข้อจำกัด
 ```
 
-## ▶️ วิธีเปิดโปรเจกต์
+## วิธีเปิดโปรเจกต์
 
 ```bash
 npm install
@@ -82,11 +82,11 @@ npx expo start
 npx expo start --web
 ```
 
-## 🌐 Web Preview
+## Web Preview
 
 TaskXP สามารถนำไปทำเป็น Web Preview ได้ผ่าน Expo Web โดยอาจต้องปรับส่วนที่พึ่งพาความสามารถเฉพาะมือถือ เช่น Date Picker และ Push Notifications ให้เหมาะกับเบราว์เซอร์
 
-## ✅ การตรวจสอบและการปรับปรุง
+## การตรวจสอบและการปรับปรุง
 
 โปรเจกต์ผ่านการตรวจ Syntax ของไฟล์ JavaScript ทั้งหมด 35 ไฟล์แล้ว รายละเอียดการแก้ไขเชิงระบบอยู่ใน [REPORT.md](REPORT.md)
 
@@ -101,7 +101,7 @@ TaskXP สามารถนำไปทำเป็น Web Preview ได้ผ
 - ปรับ Empty State และ Friend Flow
 - เพิ่ม Accessibility ให้ปุ่มสำคัญ
 
-## ⚠️ ข้อจำกัดปัจจุบัน
+## ข้อจำกัดปัจจุบัน
 
 - Login และ Onboarding ยังเป็น Demo Flow
 - Feedback และ Bug Report ยังเป็น Demo Alert
